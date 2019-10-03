@@ -1,0 +1,24 @@
+{
+  "name": "cw-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/vuepress/cli.js dev docs ",
+    "build": "./node_modules/vuepress/cli.js build docs "
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kerwood/cw-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kerwood/cw-docs/issues"
+  },
+  "homepage": "https://github.com/Kerwood/cw-docs#readme",
+  "dependencies": {
+    "vuepress": "^1.1.0"
+  }
+}
