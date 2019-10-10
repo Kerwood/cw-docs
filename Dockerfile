@@ -6,6 +6,6 @@ WORKDIR /usr/src/app
 # Install app dependencies
 COPY . /usr/src/app/
 
-RUN npm -g install pm2 && npm install
+RUN npm install
 
-CMD ["pm2-docker", "server.js"]
+CMD ["npm", "run", "dev"]
