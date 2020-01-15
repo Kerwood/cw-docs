@@ -41,9 +41,26 @@ Build the container.
 docker build -t hello-world .
 ```
 
+Verify the image.
+```
+docker image ls
+```
+
 Run the image.
 ```
 docker run --name hello-world -p 9001:80 -d hello-world
+```
+
+Go to `http://<vm-private-ip>:9001` to confirm the webserver is running.
+
+Stop the container.
+```
+docker stop hello-world
+```
+
+Remove the container.
+```
+docker rm hello-world
 ```
 
 ## Docker Compose
